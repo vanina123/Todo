@@ -34,6 +34,7 @@ input {
 }
 
 .todo .fa-solid.fa-arrows-rotate {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -113,11 +114,23 @@ hr {
 }
 
 .fa-ellipsis-vertical {
+  cursor: pointer;
   margin-left: 90%;
   margin-top: -18px;
   color: rgba(128, 128, 128, 0.425);
 }
 
 .fa-arrow-turn-down {
+  cursor: pointer;
   color: rgba(128, 128, 128, 0.425);
+}
+
+.tsk {
+  border: none;
+  outline: none;
+}
+
+.uil-trash {
+  margin-left: 90%;
+  cursor: pointer;
 }

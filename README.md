@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Todo list</b></h3>
+  <h3><b> My Todo list</b></h3>
 
 </div>
 
@@ -38,7 +38,6 @@ CSS
 -JS
 -DOM Manipulation
 
-<!-- ### Tech Stack <a name="tech-stack"></a> -->
  
 ### Key Features <a name="key-features"></a>
 
@@ -73,7 +72,7 @@ Example command:
 
 ```sh
   cd my-folder
-  git clone: (https://github.com/vanina123/Todo_list)
+  git clone: (https://github.com/vanina123/Todo)
 ```
 
 ### Install

@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b> My Todo list</b></h3>
+  <h3><b>Todo list</b></h3>
 
 </div>
 
@@ -36,8 +36,6 @@ This is a project which allows uses to add items in the list and and can be dele
 -HTML5
 CSS
 -JS
--DOM Manipulation
-
  
 ### Key Features <a name="key-features"></a>
 
@@ -78,13 +76,9 @@ Example command:
 ### Install
 
 Install this project with: npm Example commands:
-
-
-### Usage
-
-To run the project, execute the following command: npm test
-Example command:
-
+Also install webpack 
+and run npm install
+npm run dev
 
 ### Deployment
 

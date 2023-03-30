@@ -78,7 +78,7 @@ Example command:
 Install this project with: npm Example commands:
 Also install webpack 
 and run npm install
-npm run dev
+npm run dev this will open the live server of webpack and automatically update your work
 
 ### Deployment
 

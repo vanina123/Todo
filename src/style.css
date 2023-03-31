@@ -125,6 +125,10 @@ hr {
   color: rgba(128, 128, 128, 0.425);
 }
 
+.checked {
+  text-decoration: line-through;
+}
+
 .tsk {
   border: none;
   outline: none;

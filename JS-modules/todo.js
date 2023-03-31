@@ -1,5 +1,6 @@
 let tasks = [];
 const list = document.querySelector('.todo-ul');
+const clearAll = document.querySelector('.clear');
 
 function save() {
   localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -21,7 +22,7 @@ function render() {
     li.classList.add('nana');
     li.innerHTML = `
       <input type="checkbox" ${task.completed ? 'checked' : ''}>
-      <input type="text" value="${task.description}" class="tsk">
+      <input type="text" value="${task.description}" class="tsk ${task.completed ? 'checked' : ''}">
       <div class="pen1">
         <li><i class="uil uil-trash"></i></li>
       </div>
@@ -42,6 +43,14 @@ function render() {
     const inputField = li.querySelector('.tsk');
     inputField.addEventListener('input', () => {
       tasks[index].description = inputField.value;
+      save();
+    });
+
+    // Add event listener to the checkbox
+    const checkbox = li.querySelector('input[type="checkbox"]');
+    checkbox.addEventListener('change', () => {
+      tasks[index].completed = checkbox.checked;
+      inputField.classList.toggle('checked');
       save();
     });
   });
@@ -71,5 +80,13 @@ form.addEventListener('submit', (e) => {
     form.reset();
   }
 });
+
 get();
 render();
+
+// Add event listener to the "Clear all completed" button
+clearAll.addEventListener('click', () => {
+  tasks = tasks.filter((task) => !task.completed);
+  save();
+  render();
+});

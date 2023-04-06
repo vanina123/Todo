@@ -86,9 +86,9 @@ You can deploy this project using:
 GitHub Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-- [🚀 Live Demo](#live-demo)
+- [🚀 Live Demo](https://vanina123.github.io/Todo/dist/)
 - below is a live demo of my Todo list project
-- https://vanina123.github.io/Todo/dist/
+- 
 
 ## 👥 Authors <a name="authors"></a>
 
